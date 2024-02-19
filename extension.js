@@ -6,8 +6,6 @@ const { XMLParser } = require("fast-xml-parser");
  * @param {vscode.ExtensionContext} context
  */
 
-// bf74skqz4gknqvgcv5qdv6htzvwsfoqdo52cjtucjtqqvmhotuga
-
 async function activate(context) {
 	const res = await axios.get("https://blog.webdevsimplified.com/rss.xml");
 	const parser = new XMLParser();
