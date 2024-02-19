@@ -6,8 +6,9 @@
     "type": "git",
     "url": "https://github.com/Rudraprasad-Mohapatra/search-blog-example-vscode-extension"
   },
+  "icon": "images/blog.jpg",
   "publisher":"RudraprasadMohapatra",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.86.0"
   },
